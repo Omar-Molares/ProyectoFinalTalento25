@@ -46,7 +46,9 @@ function NavBar() {
           Joyas
         </Link>
       </Button>
-      <Button className="justify-content-end">Login</Button>
+      <Button className="justify-content-end">
+        <Link to="/login" >Login</Link>
+      </Button>
        <a href="/carrito" className="relative">
             <FaShoppingCart size={24} />
        </a>
