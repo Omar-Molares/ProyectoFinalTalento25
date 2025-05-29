@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar, Container, Button } from "react-bootstrap";
+import { FaShoppingCart } from 'react-icons/fa';
 
 function NavBar() {
   const [categories, setCategories] = useState([]);
@@ -46,6 +47,9 @@ function NavBar() {
         </Link>
       </Button>
       <Button className="justify-content-end">Login</Button>
+       <a href="/carrito" className="relative">
+            <FaShoppingCart size={24} />
+       </a>
     </Navbar>
   );
 }
