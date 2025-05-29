@@ -45,6 +45,7 @@ function NavBar() {
           Joyas
         </Link>
       </Button>
+      <Button className="justify-content-end">Login</Button>
     </Navbar>
   );
 }
