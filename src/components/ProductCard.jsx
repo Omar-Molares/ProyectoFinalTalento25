@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
     const handleAddToCart = () => {
   Swal.fire({
     title: '¡Agregado al carrito!',
-    text: `${product.title} fue agregado correctamente.`,
+    text: ` fue agregado correctamente.`,
     icon: 'success',
     confirmButtonText: 'OK'
   });
